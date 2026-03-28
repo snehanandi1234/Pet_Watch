@@ -1,0 +1,5 @@
+.vercel
+.env*.local
+
+# Embedded clone of vercel-php (not part of PetWatch); keep out of repo
+php/

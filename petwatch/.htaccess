@@ -1,0 +1,2 @@
+# UTF-8 for all responses (fixes mojibake when PHP does not set headers)
+AddDefaultCharset UTF-8

@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      # Persist database on the host (project already includes petwatch.sqlite)
+      - ./petwatch.sqlite:/var/www/html/petwatch.sqlite

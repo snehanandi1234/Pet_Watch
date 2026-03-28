@@ -1,0 +1,6 @@
+php
+.git
+.gitignore
+**/.DS_Store
+.env
+.env.*
